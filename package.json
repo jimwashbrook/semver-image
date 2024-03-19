@@ -1,0 +1,19 @@
+{
+  "name": "semver-image",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@semantic-release/commit-analyzer": "^12.0.0",
+    "@semantic-release/exec": "^6.0.3",
+    "@semantic-release/github": "^10.0.2",
+    "@semantic-release/release-notes-generator": "^12.1.0",
+    "npx": "^10.2.2"
+  }
+}
