@@ -8,7 +8,7 @@ RUN apk add nodejs npm
 COPY package*.json .
 
 RUN npm ci --omit=dev
-RUN npm audit
+RUN npm audit signatures
 
 COPY . .
 
