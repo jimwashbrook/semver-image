@@ -6,10 +6,11 @@ RUN apk update
 RUN apk add nodejs npm
 
 COPY package*.json .
-RUN npm ci --omit=dev
-COPY . .
 
+RUN npm ci --omit=dev
 RUN npm audit
+
+COPY . .
 
 FROM alpine:3.19.1 
 
